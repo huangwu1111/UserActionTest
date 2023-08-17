@@ -1,0 +1,6 @@
+framework module UserActionTest {
+  umbrella header "UserActionTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

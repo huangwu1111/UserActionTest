@@ -1,0 +1,24 @@
+PODS:
+  - ProgressHUD (13.7.2)
+  - UserActionTest (0.1.0):
+    - ProgressHUD
+
+DEPENDENCIES:
+  - ProgressHUD
+  - UserActionTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ProgressHUD
+
+EXTERNAL SOURCES:
+  UserActionTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
+  UserActionTest: 56eaf2198889bc77a7b67d70d1f7532d1498331a
+
+PODFILE CHECKSUM: 9acda83c658facd6436077190a27bf3a66548589
+
+COCOAPODS: 1.12.1

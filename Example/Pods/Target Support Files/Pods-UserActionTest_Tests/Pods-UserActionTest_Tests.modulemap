@@ -1,0 +1,6 @@
+framework module Pods_UserActionTest_Tests {
+  umbrella header "Pods-UserActionTest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

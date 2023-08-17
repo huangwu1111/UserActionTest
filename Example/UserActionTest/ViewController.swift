@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import ProgressHUD
+import UserActionTest
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        HudTest().hud(str: "ddd")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
