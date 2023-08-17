@@ -1,14 +1,18 @@
 PODS:
+  - Alamofire (5.7.1)
   - ProgressHUD (13.7.2)
   - UserActionTest (0.1.0):
+    - Alamofire
     - ProgressHUD
 
 DEPENDENCIES:
+  - Alamofire
   - ProgressHUD
   - UserActionTest (from `../`)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - ProgressHUD
 
 EXTERNAL SOURCES:
@@ -16,9 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   ProgressHUD: 093d24ca970f191744017bee2649e37d0cd1c5b9
-  UserActionTest: 56eaf2198889bc77a7b67d70d1f7532d1498331a
+  UserActionTest: 7c4c995983135ad9c21cb06a45353f3082be43b2
 
-PODFILE CHECKSUM: 9acda83c658facd6436077190a27bf3a66548589
+PODFILE CHECKSUM: c4424d4712702485c0f64b72e8e52b45d333ea4c
 
 COCOAPODS: 1.12.1

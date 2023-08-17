@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of UserActionTest.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1243930473@qq.com/UserActionTest",
+  "homepage": "https://github.com/huangwu1111/UserActionTest",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "1243930473@qq.com": "1243930473@qq.com"
   },
   "source": {
-    "git": "https://github.com/1243930473@qq.com/UserActionTest.git",
+    "git": "https://github.com/huangwu1111/UserActionTest.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -21,6 +21,9 @@
   "source_files": "UserActionTest/Classes/**/*",
   "dependencies": {
     "ProgressHUD": [
+
+    ],
+    "Alamofire": [
 
     ]
   },

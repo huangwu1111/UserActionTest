@@ -1,0 +1,98 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionTest",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ProgressHUD",
+        "printedName": "ProgressHUD",
+        "declKind": "Import",
+        "moduleName": "UserActionTest"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HudTest",
+        "printedName": "HudTest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HudTest",
+                "printedName": "UserActionTest.HudTest",
+                "usr": "s:14UserActionTest03HudC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14UserActionTest03HudC0CACycfc",
+            "mangledName": "$s14UserActionTest03HudC0CACycfc",
+            "moduleName": "UserActionTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hud",
+            "printedName": "hud(str:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14UserActionTest03HudC0C3hud3strySS_tF",
+            "mangledName": "$s14UserActionTest03HudC0C3hud3strySS_tF",
+            "moduleName": "UserActionTest",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14UserActionTest03HudC0C",
+        "mangledName": "$s14UserActionTest03HudC0C",
+        "moduleName": "UserActionTest",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/var\/folders\/lp\/p5c081rn0fx90bm4b70xyt5c0000gn\/T\/frameworks-icmyxd80\/Pods\/UserActionTest\/UserActionTest\/Classes\/HudTest.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 15,
+      "value": "\"😂哈哈哈\""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module UserActionTest {
+  umbrella header "UserActionTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module UserActionTest.Swift {
+  header "UserActionTest-Swift.h"
+  requires objc
+}

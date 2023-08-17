@@ -5,6 +5,7 @@ platform :ios, '13.0'
 target 'UserActionTest_Example' do
   pod 'UserActionTest', :path => '../'
   pod 'ProgressHUD'
+  pod 'Alamofire'
   target 'UserActionTest_Tests' do
     inherit! :search_paths
     

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         HudTest().hud(str: "ddd")
+        LoginTestFile().loginTest()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
