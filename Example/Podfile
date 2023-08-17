@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'UserActionTest_Example' do
+  pod 'UserActionTest', :path => '../'
+
+  target 'UserActionTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
